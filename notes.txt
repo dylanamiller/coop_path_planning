@@ -1,0 +1,4 @@
+map: controls map and discritization (nodes)
+planner: a* (and potentially other) algorithms. has no knowledge of anything else, just knows it uses "nodes" from map, can be stand along or coop
+- planner -> a* -> a* updates/improvements
+robot: handles communication between robots, adds the coop complexities
